@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    background-color: #0a0f0a;
+    color: #E5E7EB;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .crt-scan {
+    position: relative;
+  }
+  
+  .crt-scan::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #10B981, transparent);
+    animation: scan 0.1s linear infinite;
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .tube-glow {
+    filter: drop-shadow(0 0 10px #10B981) drop-shadow(0 0 20px #10B981);
+  }
+  
+  .pill-button {
+    background: linear-gradient(90deg, #E5E7EB 0%, #E5E7EB 50%, #10B981 50%, #10B981 100%);
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+  }
+  
+  .pill-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+  }
+  
+  .terminal-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: 'JetBrains Mono', monospace;
+    caret-color: #10B981;
+  }
+  
+  .terminal-input::placeholder {
+    color: #6B7280;
+  }
+  
+  .progress-bar {
+    background: linear-gradient(90deg, #10B981, #F59E0B);
+    height: 4px;
+    border-radius: 2px;
+    transition: width 0.5s ease;
+  }
+  
+  .noise-overlay {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+    opacity: 0.1;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981;
+  }
+}
