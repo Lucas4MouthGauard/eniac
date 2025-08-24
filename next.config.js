@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Removed experimental.appDir as it's no longer needed in Next.js 14
+  // Enable static export for GitHub Pages
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig
