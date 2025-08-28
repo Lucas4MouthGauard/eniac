@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for GitHub Pages
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true
-  }
+  // Standard Next.js 14 configuration
+  // Removed static export config as it's not compatible with App Router
 }
 
 module.exports = nextConfig
