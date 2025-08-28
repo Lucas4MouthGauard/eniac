@@ -53,7 +53,7 @@ export default function Home() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1, delay: 0.2 }}
                 >
-                  🖥️ ENIAC loads LLM
+                  ⚡ ENIAC loads LLM
                 </motion.h1>
                 
                 {/* Subtitle */}

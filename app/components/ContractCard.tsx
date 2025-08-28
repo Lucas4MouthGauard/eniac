@@ -42,8 +42,8 @@ export function ContractCard() {
                 <div className="text-eniac-white font-semibold">Solana</div>
               </div>
               <div>
-                <div className="text-sm text-eniac-white/60 mb-1">Token Standard</div>
-                <div className="text-eniac-white font-semibold">SPL-20</div>
+                <div className="text-sm text-eniac-white/60 mb-1">Ticket</div>
+                <div className="text-eniac-white font-semibold">$ENIAC</div>
               </div>
               <div>
                 <div className="text-sm text-eniac-white/60 mb-1">Total Supply</div>
@@ -80,23 +80,6 @@ export function ContractCard() {
           
           <div className="space-y-4">
             <div className="grid grid-cols-1 gap-3">
-              <button
-                onClick={() => window.open('https://discord.gg/eniac-llm', '_blank')}
-                className="flex items-center gap-3 p-4 bg-eniac-black/50 border border-eniac-green/20 rounded hover:border-eniac-green/40 transition-colors group"
-              >
-                <div className="w-10 h-10 bg-[#5865F2] rounded-full flex items-center justify-center">
-                  <span className="text-white text-lg">💬</span>
-                </div>
-                <div className="text-left">
-                  <div className="font-semibold text-eniac-white group-hover:text-eniac-green transition-colors">
-                    Join Discord
-                  </div>
-                  <div className="text-sm text-eniac-white/60">
-                    Connect with fellow ENIAC enthusiasts
-                  </div>
-                </div>
-              </button>
-              
               <button
                 onClick={() => window.open('https://x.com/eniac_llm_sol', '_blank')}
                 className="flex items-center gap-3 p-4 bg-eniac-black/50 border border-eniac-green/20 rounded hover:border-eniac-green/40 transition-colors group"
