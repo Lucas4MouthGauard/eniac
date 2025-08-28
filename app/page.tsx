@@ -144,7 +144,7 @@ export default function Home() {
                         Terminal
                       </button>
                       <a 
-                        href="https://x.com/eniac_llm_sol"
+                        href="https://x.com/Eniac_sol"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-eniac-white hover:text-eniac-green transition-colors flex items-center gap-2"
