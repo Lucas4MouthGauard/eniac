@@ -53,7 +53,7 @@ export default function Home() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1, delay: 0.2 }}
                 >
-                  ENIAC loads LLM
+                  🖥️ ENIAC loads LLM
                 </motion.h1>
                 
                 {/* Subtitle */}
@@ -144,7 +144,7 @@ export default function Home() {
                         Terminal
                       </button>
                       <a 
-                        href="https://x.com/eniac_llm"
+                        href="https://x.com/eniac_llm_sol"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-eniac-white hover:text-eniac-green transition-colors flex items-center gap-2"

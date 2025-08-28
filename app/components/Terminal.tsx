@@ -21,9 +21,8 @@ const commands = {
   status   - System status`,
   
   X: `Social Media:
-  🐦 Twitter: @eniac_llm
-  💬 Discord: discord.gg/eniac-llm
-  📱 Telegram: t.me/eniac_llm`,
+  🐦 Twitter: @eniac_llm_sol
+  💬 Discord: discord.gg/eniac-llm`,
   
   CA: `Contract Address:
   0x1234567890abcdef1234567890abcdef12345678

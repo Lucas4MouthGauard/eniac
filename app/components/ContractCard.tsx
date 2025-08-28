@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Copy, ExternalLink, Users, FileText } from 'lucide-react'
+import { Copy } from 'lucide-react'
 
 export function ContractCard() {
   const copyToClipboard = (text: string) => {
@@ -30,8 +30,8 @@ export function ContractCard() {
             <div>
               <div className="text-sm text-eniac-white/60 mb-2">Contract Address</div>
               <div className="bg-eniac-black/50 p-3 rounded border border-eniac-green/20">
-                <code className="font-jetbrains text-eniac-green break-all">
-                  0x1234567890abcdef1234567890abcdef12345678
+                <code className="font-jetbrains text-eniac-green">
+                  Coming Soon
                 </code>
               </div>
             </div>
@@ -39,11 +39,11 @@ export function ContractCard() {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-sm text-eniac-white/60 mb-1">Network</div>
-                <div className="text-eniac-white font-semibold">Ethereum</div>
+                <div className="text-eniac-white font-semibold">Solana</div>
               </div>
               <div>
                 <div className="text-sm text-eniac-white/60 mb-1">Token Standard</div>
-                <div className="text-eniac-white font-semibold">ERC-20</div>
+                <div className="text-eniac-white font-semibold">SPL-20</div>
               </div>
               <div>
                 <div className="text-sm text-eniac-white/60 mb-1">Total Supply</div>
@@ -57,18 +57,11 @@ export function ContractCard() {
             
             <div className="flex gap-3">
               <button
-                onClick={() => copyToClipboard('0x1234567890abcdef1234567890abcdef12345678')}
+                onClick={() => copyToClipboard('Coming Soon')}
                 className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-eniac-green text-eniac-black rounded font-semibold hover:bg-eniac-green/80 transition-colors"
               >
                 <Copy size={16} />
                 Copy Address
-              </button>
-              <button
-                onClick={() => window.open('https://etherscan.io/address/0x1234567890abcdef1234567890abcdef12345678', '_blank')}
-                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-eniac-amber text-eniac-black rounded font-semibold hover:bg-eniac-amber/80 transition-colors"
-              >
-                <ExternalLink size={16} />
-                View on Explorer
               </button>
             </div>
           </div>
@@ -92,7 +85,7 @@ export function ContractCard() {
                 className="flex items-center gap-3 p-4 bg-eniac-black/50 border border-eniac-green/20 rounded hover:border-eniac-green/40 transition-colors group"
               >
                 <div className="w-10 h-10 bg-[#5865F2] rounded-full flex items-center justify-center">
-                  <Users className="text-white" size={20} />
+                  <span className="text-white text-lg">💬</span>
                 </div>
                 <div className="text-left">
                   <div className="font-semibold text-eniac-white group-hover:text-eniac-green transition-colors">
@@ -102,11 +95,10 @@ export function ContractCard() {
                     Connect with fellow ENIAC enthusiasts
                   </div>
                 </div>
-                <ExternalLink className="ml-auto text-eniac-white/40 group-hover:text-eniac-green transition-colors" size={16} />
               </button>
               
               <button
-                onClick={() => window.open('https://twitter.com/eniac_llm', '_blank')}
+                onClick={() => window.open('https://x.com/eniac_llm_sol', '_blank')}
                 className="flex items-center gap-3 p-4 bg-eniac-black/50 border border-eniac-green/20 rounded hover:border-eniac-green/40 transition-colors group"
               >
                 <div className="w-10 h-10 bg-[#1DA1F2] rounded-full flex items-center justify-center">
@@ -120,35 +112,6 @@ export function ContractCard() {
                     Get the latest updates and memes
                   </div>
                 </div>
-                <ExternalLink className="ml-auto text-eniac-white/40 group-hover:text-eniac-green transition-colors" size={16} />
-              </button>
-              
-              <button
-                onClick={() => window.open('https://t.me/eniac_llm', '_blank')}
-                className="flex items-center gap-3 p-4 bg-eniac-black/50 border border-eniac-green/20 rounded hover:border-eniac-green/40 transition-colors group"
-              >
-                <div className="w-10 h-10 bg-[#0088cc] rounded-full flex items-center justify-center">
-                  <span className="text-white text-lg">📱</span>
-                </div>
-                <div className="text-left">
-                  <div className="font-semibold text-eniac-white group-hover:text-eniac-green transition-colors">
-                    Telegram Channel
-                  </div>
-                  <div className="text-sm text-eniac-white/60">
-                    Stay connected on mobile
-                  </div>
-                </div>
-                <ExternalLink className="ml-auto text-eniac-white/40 group-hover:text-eniac-green transition-colors" size={16} />
-              </button>
-            </div>
-            
-            <div className="pt-4 border-t border-eniac-green/20">
-              <button
-                onClick={() => window.open('/litepaper.pdf', '_blank')}
-                className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-eniac-green/10 border border-eniac-green/30 rounded text-eniac-green hover:bg-eniac-green/20 transition-colors"
-              >
-                <FileText size={16} />
-                Read Litepaper
               </button>
             </div>
           </div>
