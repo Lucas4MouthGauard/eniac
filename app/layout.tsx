@@ -6,7 +6,10 @@ export const metadata: Metadata = {
   description: 'Wiring 20th-century glow into a 21st-century language engine. Experience the retro-futuristic journey of ENIAC loading a modern Large Language Model.',
   keywords: 'ENIAC, LLM, AI, retro, vintage, computer history, artificial intelligence',
   icons: {
-    icon: '/icon.svg',
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
     shortcut: '/icon.svg',
     apple: '/icon.svg',
   },
