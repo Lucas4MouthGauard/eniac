@@ -11,7 +11,7 @@
 
 ## 🐦 社交媒体链接
 
-- **Twitter/X**: [@Eniac_sol](https://x.com/Eniac_sol) - 已在导航栏添加
+- **Twitter/X**: [@eniac4llm](https://x.com/eniac4llm) - 已在导航栏添加
 
 ## 🔧 部署配置
 
@@ -56,7 +56,7 @@ eniac/
 - ✅ **交互式终端**：支持多种命令和彩蛋
 - ✅ **复古科技视觉**：CRT 扫描线、发光真空管、打孔纸带
 - ✅ **响应式设计**：移动端优化
-- ✅ **导航栏推特链接**：指向 [@Eniac_sol](https://x.com/Eniac_sol)
+- ✅ **导航栏推特链接**：指向 [@eniac4llm](https://x.com/eniac4llm)
 
 ## 🚀 快速开始
 
@@ -88,7 +88,7 @@ eniac/
 
 ## 📱 社交媒体
 
-- **Twitter**: [@Eniac_sol](https://x.com/Eniac_sol)
+- **Twitter**: [@eniac4llm](https://x.com/eniac4llm)
 - **GitHub**: [Lucas4MouthGauard/eniac](https://github.com/Lucas4MouthGauard/eniac)
 
 ---

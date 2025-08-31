@@ -81,7 +81,7 @@ export function ContractCard() {
           <div className="space-y-4">
             <div className="grid grid-cols-1 gap-3">
               <button
-                onClick={() => window.open('https://x.com/Eniac_sol', '_blank')}
+                onClick={() => window.open('https://x.com/eniac4llm', '_blank')}
                 className="flex items-center gap-3 p-4 bg-eniac-black/50 border border-eniac-green/20 rounded hover:border-eniac-green/40 transition-colors group"
               >
                 <div className="w-10 h-10 bg-[#1DA1F2] rounded-full flex items-center justify-center">

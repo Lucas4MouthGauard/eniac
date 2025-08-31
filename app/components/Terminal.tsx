@@ -21,7 +21,7 @@ const commands = {
   status   - System status`,
   
   X: `Social Media:
-  🐦 Twitter: @Eniac_sol`,
+  🐦 Twitter: @eniac4llm`,
   
   CA: `Contract Address:
   0x1234567890abcdef1234567890abcdef12345678
